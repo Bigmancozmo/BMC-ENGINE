@@ -3,8 +3,8 @@
 
 # Add source to this project's executable.
 file(GLOB BMCE_SOURCE
-	"main.cpp"
-	"main.h"
+	"*.cpp"
+	"*.h"
 	"../libs/glad/src/glad.c"
 	"../libs/imgui/*.cpp"
 	"../libs/imgui/backends/imgui_impl_glfw.cpp"
